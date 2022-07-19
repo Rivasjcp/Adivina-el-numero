@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Number guessing game</title>
+
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Adivina el numero</h1>
+
+    <p>Nosotros seleccionaremos un número random del 1 al 100. Vea si puede adivinarlo en 10 turnos o menos. Le diremos si el numero escrito es mayor o menor</p>
+
+    <div class="form">
+      <label for="guessField">Ingresa el numero: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Suministrar numero" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastresult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    
+  </body>
